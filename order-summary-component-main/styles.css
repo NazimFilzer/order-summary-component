@@ -1,0 +1,123 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Red Hat Display', sans-serif;
+    
+
+}
+
+main {
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: hsl(225, 100%, 94%);
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: repeat no-repeat;
+}
+
+.card {
+    background-color: white;
+    height: 665px;
+    max-width: 480px;
+    border-radius: 20px;
+    margin-right: 25px;
+    margin-left: 20px;
+}
+
+.card img {
+    max-width: 100%;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1 {
+    margin-top: 30px;
+    margin-bottom: 25px;
+}
+
+.para {
+    margin-bottom: 25px;
+    font-size: 16px;
+    width: 280px;
+    text-align: center;
+    color: hsl(224, 23%, 55%);
+    font-weight: 500;
+}
+
+.plan {
+    display: flex;
+    border-radius: 15px;
+    background-color: #F8F9FE;
+    padding: 20px;
+    margin-top: 2px;
+    width: 325px;
+}
+
+.plan img {
+    float: left;
+    border-radius: 5px;
+    width: 50px;
+    height: 53px;
+}
+
+
+.annual {
+    font-weight: 900;
+    text-align: left;
+    margin-left: 12px;
+
+}
+
+.content a {
+    text-align: right;
+    margin-left: 215px;
+    font-weight: 600;
+}
+
+.content a:hover {
+    /* color: #F7F8FD; */
+    opacity: 0.5;
+    text-decoration: none;
+}
+
+.price {
+    text-align: left;
+    margin-left: 12px;
+    color: #767C94;
+    font-weight: 550;
+
+}
+
+.btn {
+    background-color: #382AE1;
+    border-radius: 10px;
+    color: white;
+    font-weight: 700;
+    padding: 15px;
+    width: 330px;
+    margin: 25px 0;
+}
+
+.btn:hover {
+    opacity: 0.5;
+    cursor: pointer;
+    box-shadow: 0 5px 17px -1px #382ae1;
+}
+
+.cancel {
+    color: #6D7599;
+    font-weight: 600;
+}
+
+.cancel:hover {
+    color: black;
+    cursor: pointer;
+}
